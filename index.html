@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <title>YouTube</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand"
+          ><img src="photos/youtube.svg" alt="logo-youtube" width="80"
+        /></a>
+       
+        <!-- Search bar -->
+        <form class="d-flex w-50" role="search">
+          <div class="input-group mb-3" >
+  <input type="search" class="form-control rounded-start-5 border-secondary-subtle" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary rounded-end-5 border-secondary-subtle" type="button" id="button-addon2"><img src="photos/search.svg" alt="search" width="30px"></button>
+        </div>
+        </form>
+<!-- icons from the right side  -->
+        <div class="d-flex gap-4 align-items-center">
+            <p><img src="photos/video.svg" alt="video" width="25px"></p>
+            <p><img src="photos/bell.svg" alt="bell" width="25px"></p>
+            <p><img src="photos/face-blowing-a-kiss.svg" alt="kiss-face" width="40px"></p>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Menu  -->
+
+<ul class="nav nav-pills nav-fill mx-5 mt-4 gap-2">
+  <li class="nav-item">
+    <a class="nav-link active text-white bg-black" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">All</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">New to you</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Live</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">History</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Psychology</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Computer Science</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Boxing</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Knitting</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-black bg-body-secondary" aria-current="page" href="#">Recently added</a>
+  </li> 
+</ul>
+
+    <!-- side menu -->
+<div class="d-flex gap-3">
+<div class="position-sticky top-0"> <nav class="nav flex-column">
+  <a class="nav-link active" aria-current="page" href="#"><img src="photos/home.svg" width="30px" alt="home"><p class="text-black fw-light">Home</p></a>
+  <a class="nav-link" href="#"><img src="photos/cinema.svg" width="30px" alt="shorts"><p class="text-black fw-light">Shorts</p></a>
+  <a class="nav-link" href="#"><img src="photos/subscription.svg" width="30px" alt="subscription"><p class="text-black fw-light">Subscriptin</p></a>
+  <a class="nav-link" href="#"><img src="photos/video-library.svg" width="30px" alt="library"><p class="text-black fw-light">Library</p></a>
+</nav></div>
+
+<!-- main grid -->
+
+ <div class="container mt-4 me-5">
+
+       <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-sm-1">  
+
+        <div class="col  mt-2">                                      
+          <div class="card border-0" style="width: 18rem" >
+            <video
+              src="photos/pexels-twicce-switzerland-6560037-3840x2160-30fps.mp4" 
+              class="object-fit-contain rounded"
+              autoplay
+              muted
+            ></video>
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Travel to Austria | Best lakes in Austria
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Blog about Austria</p>
+              <p class="card-text text-secondary mx-0">
+                740K views • 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <video
+              src="photos/pexels-cottonbro-studio-4098647-4096x2160-50fps.mp4"
+              class="object-fit-contain rounded"
+              autoplay
+              muted
+            
+            ></video>
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" 
+                src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" 
+                width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                How to build relationships | Advices from specialists
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Psyhologist online</p>
+              <p class="card-text text-secondary mx-0">
+                7K views • 2 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <video
+              src="photos/pexels-twicce-switzerland-6560037-3840x2160-30fps.mp4"
+              class="object-fit-contain rounded"
+              autoplay
+              muted
+            ></video>
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Travel to Switzerland | Best lakes in Switzerland
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Blog about Austria</p>
+              <p class="card-text text-secondary mx-0">
+                740K views • 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <video
+              src="photos/pexels-cottonbro-studio-6054227-4096x2160-25fps.mp4"
+              class="object-fit-contain rounded"
+              autoplay
+              muted
+            ></video>
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Classical Music for Brain Power  
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Classical Music</p>
+              <p class="card-text text-secondary mx-0">
+                79K views • 29 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <img src="photos/pexels-ivan-samkov-4458554.jpg" alt="girl-with laptop" class="rounded">
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Home Office | How to find your dream job?
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Your HR</p>
+              <p class="card-text text-secondary mx-0">
+                40K views • 10 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <img src="photos/pexels-andrea-piacquadio-3768894.jpg" alt="girl-with-laptop-in-cafe" class="rounded">
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Home Office | Are people less productive at home?
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Your HR</p>
+              <p class="card-text text-secondary mx-0">
+                740K views • 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+           <img src="photos/pexels-sabel-blanco-1544774.jpg" alt="boxing-women-men" class="rounded">
+            <div class="card-body rounded">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                What happens to your body, if you start boxing
+              </h6>
+                </div>
+              <p class="card-text text-secondary m-0">Boxing</p>
+              <p class="card-text text-secondary mx-0">
+                200K views • 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  mt-2">
+          <div class="card border-0" style="width: 18rem">
+            <img src="photos/pexels-spencer-davis-4356144.jpg" alt="pyramid" class="rounded">
+            <div class="card-body">
+                <div class="d-flex justify-content-between gap-2 align-items">
+                <img class="rounded-circle" src="https://images.pexels.com/photos/161074/vienna-st-charles-s-church-downtown-church-161074.jpeg?auto=compress&cs=tinysrgb&w=1200" width="50px" height="50px" alt="">
+                <h6 class="card-title">
+                Travel around the world| Top 10 places to visit
+              </h6>
+                </div>
+              
+              <p class="card-text text-secondary m-0">Blog about Travelling</p>
+              <p class="card-text text-secondary mx-0">
+                740K views • 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+          </div>
+</div>
+
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+  </body>
+</html>
